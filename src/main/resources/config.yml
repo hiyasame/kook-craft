@@ -7,3 +7,5 @@ message-pattern:
   kook-side: '%name%: %message%'
   # 从kook侧发出，mc侧收到的消息
   mc-side: '&7%name% &8(Kook): &f%message%'
+online-count:
+  pattern: '在线人数: %count%'

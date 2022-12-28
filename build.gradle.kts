@@ -19,11 +19,14 @@ taboolib {
 
 repositories {
     maven { url = uri("https://maven.aliyun.com/repository/central") }
+    mavenCentral()
 }
 
 dependencies {
     taboo("love.forte.simbot.component:simbot-component-kook-core:3.0.0.0-alpha.3")
     taboo("love.forte.simbot:simbot-core:3.0.0-M5")
+    taboo("com.squareup.okhttp3:okhttp:4.9.3")
+    compileOnly("com.google.code.gson:gson:2.10")
     compileOnly("ink.ptms:nms-all:1.0.0")
     compileOnly("ink.ptms.core:v11902:11902-minimize:mapped")
     compileOnly("ink.ptms.core:v11902:11902-minimize:universal")
