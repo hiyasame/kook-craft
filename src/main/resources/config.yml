@@ -1,0 +1,9 @@
+# kook bot token
+token: ''
+# 生效的频道名称
+channel: '测试'
+message-pattern:
+  # 从mc侧发出，kook侧收到的消息
+  kook-side: '%name%: %message%'
+  # 从kook侧发出，mc侧收到的消息
+  mc-side: '&7%name% &8(Kook): &f%message%'
